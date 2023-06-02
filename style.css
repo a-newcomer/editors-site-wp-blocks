@@ -200,6 +200,7 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 /*
 *  Pattern - three box row 
  */
+ 
  @media screen and (max-width: 960px) {
 	.three-box-row .wp-block-cover {
 		min-width: 48%;
@@ -246,7 +247,7 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 		font-size: 2.2em;
 	 }
  }
- 
+
  .footer-newsletter-section nf-fields-wrap {
 		display: flex;
 		justify-content: center;
