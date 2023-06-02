@@ -236,15 +236,17 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
  }
 
  /* SERVICES ARCHIVE PAGES */
- 
+
  .services-query-loop .wp-block-post-title {
 	margin-top: -60px;
  }
+
  @media screen and (max-width: 960px) {
 	.services-query-loop .wp-block-post-title {
 		font-size: 2.2em;
 	 }
  }
+ 
  .footer-newsletter-section nf-fields-wrap {
 		display: flex;
 		justify-content: center;
