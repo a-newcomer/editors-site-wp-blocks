@@ -8,7 +8,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-A simple theme for small businesses with a Bookish bent
+A simple Block theme for small businesses with a Bookish bent, including custom templates for a front page, about, contact and blog pages, a services custom post type and custom patterns
 
 == Changelog ==
 
@@ -33,8 +33,3 @@ GNU General Public License for more details.
 
 
 Libre Baskerville Font
-Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name Libre Baskerville. 
-This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL 
-License URL: http://scripts.sil.org/OFL 
-Source: www.impallari.com
--- End of Libre Baskerville Font credits --
