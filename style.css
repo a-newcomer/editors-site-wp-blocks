@@ -191,8 +191,6 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 		flex-direction: column;
 		gap: .2rem;
 	}
-	footer .wp-block-navigation__container li {
-	}
  }
  
 /*
