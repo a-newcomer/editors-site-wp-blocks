@@ -8,12 +8,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 ## Description
 
-A simple Block theme for small businesses with a Bookish bent, including custom templates for a front page, about, contact and blog pages, a services custom post type and custom patterns
+A simple Block theme for small businesses with a Bookish bent, including custom templates for a front page, about, contact and blog pages, a services custom post type and custom patterns.
+
+Visit the sample site here: https://editor.ann-newcomer.com/
 
 ## Theme Homepage Hero
 ![Screenshot-Newcomer-Edits home page](https://github.com/a-newcomer/editors-site-wp-blocks/assets/30941638/5ef28108-fb51-4511-950c-f4a643c3ae71)
-
-Visit the sample site here: https://editor.ann-newcomer.com/
 
 ## == Changelog ==
 
