@@ -287,3 +287,9 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 			width: 100%;
 		}
 	 }
+	 
+ /* BOOK PORTFOLIO ARCHIVE PAGES */
+
+ .portfolio-archive .wp-block-post-template {
+	gap: 3.5vw;
+ }

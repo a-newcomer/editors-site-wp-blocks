@@ -2,7 +2,7 @@
 /**
  * Title: Portfolio Page Template
  * Slug: foreditors/portfolio-page-template
- * Categories: text, image, about
+ * Categories: text, image, about, book-portfolio
  * Keywords: portfolio page, left sidebar, book page
  * Description: 2 columns with small round author image, header, book image in the left column, to be used on book portfolio pages
  */
@@ -15,11 +15,16 @@
 
 <!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
 <h2 class="wp-block-heading has-text-align-center has-x-large-font-size">Author Name</h2>
-<!-- /wp:heading --></div>
+<!-- /wp:heading -->
+<!-- wp:post-featured-image {"aspectRatio":"3/4","height":"300px","align":"center","style":{"border":{"radius":"3px"},"spacing":{"padding":{"top":"20px"}}},"className":"book-featured-img"} /-->
+
+</div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"66.66%","layout":{"type":"constrained","justifyContent":"left","wideSize":"650px"}} -->
-<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:paragraph -->
+<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:post-terms {"term":"portfolio-categories","style":{"typography":{"fontStyle":"normal","fontWeight":"700"}}} /-->
+
+<!-- wp:paragraph -->
 <p>
 I'm a freelance editor. I help writers create good books.<br>
 Lately I've worked most often on memoirs, but I've also edited books on sustainability and social sciences as well as language textbooks.</p>

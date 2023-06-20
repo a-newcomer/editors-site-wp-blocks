@@ -71,13 +71,29 @@ require get_template_directory() . '/inc/block-patterns.php';
  */
 
 function afn_block_pattern_category() {
+
+	register_block_pattern_category( 'book-portfolio', array(
+		'label' => __( 'Book Portfolio', 'text-domain' ),
+		'description' => __( 'Block patterns for book portfolio pages' ),
+	) );
+
 	register_block_pattern_category( 
-	   'page-sections', 
-		array(
-			'label' => __( 'Page Sections', 'text-domain' ),
-			'description' => __( 'various sections to build landing and other pages quickly', 'text-domain' ),
-		) 
-	);
+		'page-sections', 
+		 array(
+			 'label' => __( 'Page Sections', 'text-domain' ),
+			 'description' => __( 'various sections to build landing and other pages quickly', 'text-domain' ),
+		 ) 
+	 );
 }
 
 add_action( 'init', 'afn_block_pattern_category' );
+
+/**
+ * Remove default WordPress Pattern Categories
+ */
+
+function afn_unregister_category() {
+	unregister_block_pattern_category( 'gallery');
+}
+
+add_action( 'init', 'afn_unregister_category' );

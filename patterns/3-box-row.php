@@ -3,7 +3,7 @@
 /*
 * Title: 3 Box Row
  * Slug: foreditors/3-box-row
- * Categories: text, pages, page-section
+ * Categories: text, pages, page-sections
  * Keywords: 3 columns, boxes, borders
 * Description: A row of three boxes with title, text and double outlines - easy to add a background image.
 *
